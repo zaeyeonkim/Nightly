@@ -1,0 +1,40 @@
+.fav_area {
+    padding: 10px 0;
+    position: fixed;
+    top: 80px;
+    width: 100%;
+}
+
+.fav_area ul {
+    text-align: center;
+    border-bottom: 1px solid #90909050;
+}
+
+.fav_area ul li {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fav_area ul li a {
+    color: #a0a0a0;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    padding: 0 0 5px;
+}
+
+.fav_area ul li a.active {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+.favorite_area h2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #909090;
+    margin-top: 50px;
+}

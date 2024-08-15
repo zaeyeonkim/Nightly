@@ -1,0 +1,40 @@
+    {
+        title: '제주 헤리티지 타운',
+        description: '제주도 애월읍의 위치한 이국적인 느낌의 펜션',
+        price: '399,000원'
+      },
+      {
+        title: '가평 청평레이크 펜션',
+        description: '창문을 열면 청평호수가 눈 앞에 펼쳐지는 펜션',
+        price: '99,000원'
+      },
+      {
+        title: '따스한 햇살이 비추는 방',
+        description: '서울역 바로 옆에 접근하기 쉬운 숙소',
+        price: '155,000원'
+      },
+      {
+        title: '서울 포레스트 타운',
+        description: '서울숲 옆 통창이 아파트',
+        price: '195,000원'
+      },
+      {
+        title: '양평 Forest in Lemon',
+        description: '모던한 인테리어의 숙소',
+        price: '299,000원'
+      },
+      {
+        title: '수원 광교호수 펜션',
+        description: '창문을 열면 광교호수가 눈 앞에 펼쳐지는 펜션',
+        price: '109,000원'
+      },
+      {
+        title: '석모도 바다가 보이는 펜션',
+        description: '석모도 최고의 명당자리의 만든 펜션',
+        price: '185,000원'
+      },
+      {
+        title: '서울 베스트 인 모먼트',
+        description: '서울 남산을 전경으로 온천을 즐길 수 있는 숙소',
+        price: '199,000원'
+      }

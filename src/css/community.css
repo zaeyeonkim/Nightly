@@ -1,0 +1,107 @@
+.comm_area {
+    padding: 10px 0;
+    position: relative;
+    top: 20px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.comm_area ul {
+    text-align: center;
+    border-bottom: 1px solid #90909050;
+}
+.comm_area ul li {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.comm_area ul li a {
+    color: #a0a0a0;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    padding: 0 0 5px;
+}
+.comm_area ul li a.active {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+.comm_write {
+    position: fixed;
+    right: 6%;
+    bottom: 12%;
+}
+/* comm_content */
+.comm_article {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.comm_article>div {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+.comm_article>div:nth-child(2) {
+    width: 70%;
+}
+.comm_article>div h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+/* ReviewContent */
+.comm_article02 {
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #90909050;
+}
+.top_review {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+.top_review>div:nth-child(1) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.top_review>div h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-left: 10px;
+}
+.bot_review {
+    display: flex;
+    justify-content: space-between;
+}
+.review_img {
+    width: 130px;
+    height: 100px;
+    border-radius: 10%;
+}
+.review_list {
+    width: 58%;
+    font-size: 14px;
+}
+.review_list img {
+    width: 20px;
+    margin-right: 5px;
+}
+.review_list .review_title {
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 10px;
+}
+.review_list .review_text {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 12px;
+}
